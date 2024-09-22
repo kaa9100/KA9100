@@ -316,7 +316,7 @@ def flame_on_off():
 
 #Muhammad Zayeds PART. "Drawing the balloons and asking the user for their details!"
 def balloon(x,y,color):
-   
+    turtle.pencolor("black")
     turtle.penup()
     turtle.goto(x, y - 100)  
     turtle.pendown()
