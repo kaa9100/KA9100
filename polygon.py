@@ -1,3 +1,13 @@
+'''
+GITHUB LINKS:
+AARON FELICK:    https://github.com/Aaronfelick/Assignments
+ALMARRI KHALIFA: https://github.com/kaa9100/KA9100.git
+MUHAMMAD ZAYED:  https://github.com/mz9268/Classroom/blob/main/polygon.py
+'''
+
+
+
+
 class Polygon:
 
     def __init__(self,name,sides):
@@ -25,6 +35,8 @@ class Polygon:
         return self.name +" with sides: "+ str(self.sides)
     
     def calculate_circumference(self):
+        """ we use the function calculate_circumference in order to return the sum of all the sides of the polygon 
+             and if there are no sides then return 0"""
         return sum(self.sides) if self.sides else 0.0
     
     def __eq__(self, other):
